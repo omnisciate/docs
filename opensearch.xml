@@ -4,8 +4,8 @@
   <ShortName>TODO</ShortName>
   <Description>Search TODO</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://TODO/favicon.png</Image>
-  <Url type="text/html" method="get" template="https://TODO/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://TODO/opensearch.xml" />
-  <moz:SearchForm>https://TODO/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://omnisciate.github.io/docs/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://omnisciate.github.io/docs/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://omnisciate.github.io/docs/opensearch.xml" />
+  <moz:SearchForm>https://omnisciate.github.io/docs/</moz:SearchForm>
 </OpenSearchDescription>
