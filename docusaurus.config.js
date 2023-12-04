@@ -10,8 +10,8 @@ const katex = require("rehype-katex");
 const config = {
   title: "TODO",
   tagline: "The Universal Credit Protocol",
-  url: "https://TODO",
-  baseUrl: "/",
+  url: "https://omnisciate.github.io/docs/",
+  baseUrl: "/docs/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "favicon.png",
