@@ -51,8 +51,12 @@ export default function NavbarContent() {
       left={
         // TODO stop hardcoding items?
         <>
-          {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
-          <NavbarLogo />
+          {!mobileSidebar.disabled && <NavbarMobileSidebarToggle style={{color:"white"}} />}
+          {/* <NavbarLogo /> */}
+          <div style={{
+            color:'#e7ecf0',
+            fontSize:'30px'
+          }}>Sentiment</div>
           <NavbarItems items={leftItems} />
         </>
       }
@@ -67,7 +71,6 @@ export default function NavbarContent() {
           >
             <NavbarColorModeToggle className={styles.colorModeToggle} />
           </div>
-
           <NavbarItems items={rightItems} />
           {autoAddSearchBar && <SearchBar />}
         </>

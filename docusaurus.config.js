@@ -8,14 +8,14 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "TODO",
+  title: "Sentiment",
   tagline: "The Universal Credit Protocol",
   url: "https://omnisciate.github.io",
   baseUrl: "/docs/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "favicon.png",
-  organizationName: "TODO",
+  organizationName: "Sentiment",
   projectName: "docs",
 
   presets: [
@@ -48,99 +48,104 @@ const config = {
 
   themeConfig: {
     autoCollapseSidebarCategories: true,
-    algolia: {
-      apiKey: "ba302929473f01e65a7a9db29568ad9c",
-      appId: "DXWXYS5HT9",
-      indexName: "prod_index",
+    colorMode: {
+      disableSwitch: true, // 禁用日夜切换
     },
+    // useNavbarMobileSidebar: true,
+    // algolia: {
+    //   apiKey: "ba302929473f01e65a7a9db29568ad9c",
+    //   appId: "DXWXYS5HT9",
+    //   indexName: "prod_index",
+    // },
+
     navbar: {
       logo: {
-        alt: "TODO",
-        srcDark: "logo_long.png",
+        alt: "Sentiment",
+        // srcDark: "logo_long.png",
         src: "logo_long_black.png",
       },
-      items: [
-        {
-          label: "Twitter",
-          href: "https://twitter.com/TODO",
-          position: "right",
-        },
-        {
-          label: "GitHub",
-          href: "https://github.com/TODO",
-          position: "right",
-        },
-        {
-          type: "search",
-          position: "right",
-        },
-      ],
+      // items: [
+      //   {
+      //     label: "Twitter",
+      //     href: "https://twitter.com/TODO",
+      //     position: "right",
+      //   },
+      //   {
+      //     label: "GitHub",
+      //     href: "https://github.com/TODO",
+      //     position: "right",
+      //   },
+      //   {
+      //     type: "search",
+      //     position: "right",
+      //   },
+      // ],
     },
     footer: {
       style: "light",
-      links: [
-        {
-          title: "Developers",
-          items: [
-            {
-              label: "Whitepaper",
-              href: "https://docs.TODO/assets/files/whitepaper-6d79d366383af419382831913a0470a1.pdf",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/TODO",
-            },
-            {
-              label: "Feedback",
-              to: "/",
-            },
-          ],
-        },
-        {
-          title: "Ecosystem",
-          items: [
-            {
-              label: "Website",
-              href: "https://www.TODO",
-            },
-            {
-              label: "App",
-              href: "https://TODO",
-            },
-            {
-              label: "DeFiLlama",
-              href: "https://TODO",
-            },
-            {
-              label: "Dune Analytics",
-              href: "https://TODO",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Twitter",
-              href: "https://twitter.com/TODO",
-            },
-            {
-              label: "Discord",
-              href: "https://discord.com/invite/TODO",
-            },
-            {
-              label: "Blog",
-              href: "https://blog.TODO",
-            },
-          ],
-        },
-      ],
+      // links: [
+      //   {
+      //     title: "Developers",
+      //     items: [
+      //       {
+      //         label: "Whitepaper",
+      //         href: "https://docs.TODO/assets/files/whitepaper-6d79d366383af419382831913a0470a1.pdf",
+      //       },
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/TODO",
+      //       },
+      //       {
+      //         label: "Feedback",
+      //         to: "/",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "Ecosystem",
+      //     items: [
+      //       {
+      //         label: "Website",
+      //         href: "https://www.TODO",
+      //       },
+      //       {
+      //         label: "App",
+      //         href: "https://TODO",
+      //       },
+      //       {
+      //         label: "DeFiLlama",
+      //         href: "https://TODO",
+      //       },
+      //       {
+      //         label: "Dune Analytics",
+      //         href: "https://TODO",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "Community",
+      //     items: [
+      //       {
+      //         label: "Twitter",
+      //         href: "https://twitter.com/TODO",
+      //       },
+      //       {
+      //         label: "Discord",
+      //         href: "https://discord.com/invite/TODO",
+      //       },
+      //       {
+      //         label: "Blog",
+      //         href: "https://blog.TODO",
+      //       },
+      //     ],
+      //   },
+      // ],
 
-      copyright: `Copyright © ${new Date().getFullYear()} TODO.`,
+      // copyright: `Copyright © ${new Date().getFullYear()} TODO.`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      // theme: lightCodeTheme,
+      // darkTheme: darkCodeTheme,
     },
   },
 //   plugins: [[require.resolve("@cmfcmf/docusaurus-search-local"),
